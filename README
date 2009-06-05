@@ -25,4 +25,4 @@ Licenses:
 
 twit.py: Use as you like <kaerast@qvox.org>
 blowfish.py: GPL <http://ivoras.sharanet.org/projects/blowfish.html>
-twitter.py: Apache License
+twitter.py: Apache License <http://code.google.com/p/python-twitter/>
