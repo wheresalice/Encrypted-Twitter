@@ -1,7 +1,7 @@
 Usage:
 
-python twit.py -m "hello world" -k "This is a test key"
-python twit.py --message="hello world" --key="This is a test key"
+python twit.py [-d] -m "hello world" -k "This is a test key"
+python twit.py [--decrypt] --message="hello world" --key="This is a test key"
 
 The key needs to be a multiple of 8 bytes (up to a maximum of 56)
 
@@ -14,8 +14,7 @@ You need to find a way of sharing the key safely.
 
 Todo:
 
-Write a script to decrypt these messages.  The code here is simply a proof of concept,
-decryption will be added if anybody is insane enough to actually want to use it.
+Add an option to not send the message to Twitter (for testing purposes or sending via sms)
 
 Contact:
 
