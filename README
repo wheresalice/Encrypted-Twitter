@@ -1,0 +1,28 @@
+Usage:
+
+python twit.py -m "hello world" -k "This is a test key"
+python twit.py --message="hello world" --key="This is a test key"
+
+The key needs to be a multiple of 8 bytes (up to a maximum of 56)
+
+The message should be short (the encrypted message needs to be less than 140 characters)
+
+Security:
+
+I believe this to be secure but don't offer any gaurantees.
+You need to find a way of sharing the key safely.
+
+Todo:
+
+Write a script to decrypt these messages.  The code here is simply a proof of concept,
+decryption will be added if anybody is insane enough to actually want to use it.
+
+Contact:
+
+Alice Kaerast <kaerast@qvox.org> <http://privacybox.de/kaerast.msg>
+
+Licenses:
+
+twit.py: Use as you like <kaerast@qvox.org>
+blowfish.py: GPL <http://ivoras.sharanet.org/projects/blowfish.html>
+twitter.py: Apache License
